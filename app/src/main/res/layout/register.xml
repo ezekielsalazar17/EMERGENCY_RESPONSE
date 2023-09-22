@@ -68,21 +68,21 @@
         android:layout_height="38dp"
         android:layout_marginStart="100dp"
         android:layout_marginEnd="100dp"
-        android:ems="10"
-        android:textSize="15sp"
-        android:hint="@string/lastname"
         android:autofillHints="name"
-        android:letterSpacing="0.09"
-        android:textColorHint="@color/black"
         android:background="@drawable/border"
+        android:ems="10"
+        android:hint="@string/lastname"
         android:inputType="text"
+        android:letterSpacing="0.09"
         android:paddingStart="10sp"
         android:paddingEnd="10sp"
         android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
         tools:layout_editor_absoluteY="352dp" />
 
     <EditText
@@ -104,7 +104,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
+        tools:ignore="Autofill,MissingConstraints,TextContrastCheck,TouchTargetSizeCheck"
         tools:layout_editor_absoluteY="397dp" />
 
     <EditText
@@ -115,18 +115,18 @@
         android:layout_marginEnd="101dp"
         android:background="@drawable/border"
         android:ems="10"
-        android:textSize="15sp"
+        android:hint="@string/confirmpassword"
+        android:inputType="textPassword"
+        android:letterSpacing="0.09"
         android:paddingStart="10sp"
         android:paddingEnd="10sp"
         android:textAlignment="center"
-        android:letterSpacing="0.09"
-        android:hint="@string/confirmpassword"
         android:textColorHint="@color/black"
-        android:inputType="textPassword"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        tools:ignore="Autofill,MissingConstraints,TextContrastCheck,TouchTargetSizeCheck"
         tools:layout_editor_absoluteY="442dp" />
 
     <EditText
