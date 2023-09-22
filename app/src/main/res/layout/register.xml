@@ -27,6 +27,7 @@
         android:background="@drawable/border"
         android:ems="10"
         android:hint="@string/id"
+        android:drawableEnd="@drawable/baseline_folder_24"
         android:textSize="15sp"
         android:textColorHint="@color/black"
         android:inputType="text"
