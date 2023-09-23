@@ -19,4 +19,8 @@
     <string name="password1">Password</string>
     <string name="confirm_password1">Confirm Password</string>
     <string name="email_or_phone_number1">Email or Phone Number</string>
+    <string name="fire_department">FIRE DEPARTMENT</string>
+    <string name="police_department">POLICE DEPARTMENT</string>
+    <string name="ambulance_department">AMBULANCE DEPARTMENT</string>
+    <string name="coast_guard_department">COAST GUARD DEPARTMENT</string>
 </resources>
