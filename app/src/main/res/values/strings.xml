@@ -11,4 +11,12 @@
     <string name="confirmpassword">Confirm Password</string>
     <string name="emailorphonenumber">Email or Phone Number</string>
     <string name="register">REGISTER</string>
+    <string name="location_tracking">LOCATION TRACKING</string>
+    <string name="button">button</string>
+    <string name="id1">ID</string>
+    <string name="first_name1">First Name</string>
+    <string name="last_name1">Last Name</string>
+    <string name="password1">Password</string>
+    <string name="confirm_password1">Confirm Password</string>
+    <string name="email_or_phone_number1">Email or Phone Number</string>
 </resources>

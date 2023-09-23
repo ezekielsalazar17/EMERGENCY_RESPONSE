@@ -25,21 +25,21 @@
         android:layout_marginStart="100dp"
         android:layout_marginEnd="100dp"
         android:background="@drawable/border"
+        android:drawableEnd="@drawable/baseline_folder_24"
         android:ems="10"
         android:hint="@string/id"
-        android:drawableEnd="@drawable/baseline_folder_24"
-        android:textSize="15sp"
-        android:textColorHint="@color/black"
         android:inputType="text"
         android:letterSpacing="0.09"
         android:paddingStart="10sp"
         android:paddingEnd="10sp"
-        android:textAlignment="center"
+        android:fontFamily="@font/oswald_light"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="Autofill,MissingConstraints,SmallSp,TextContrastCheck,TouchTargetSizeCheck"
-        tools:layout_editor_absoluteY="262dp" />
+        tools:ignore="Autofill,MissingConstraints,SmallSp,TextContrastCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteY="268dp" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -47,21 +47,21 @@
         android:layout_height="38dp"
         android:layout_marginStart="100dp"
         android:layout_marginEnd="100dp"
+        android:autofillHints="name"
         android:background="@drawable/border"
         android:ems="10"
-        android:textSize="15sp"
+        android:fontFamily="@font/oswald_light"
         android:hint="@string/firstname"
-        android:autofillHints="name"
-        android:textColorHint="@color/black"
         android:inputType="text"
         android:paddingStart="10sp"
         android:paddingEnd="10sp"
-        android:textAlignment="center"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
-        tools:layout_editor_absoluteY="307dp" />
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteY="327dp" />
 
     <EditText
         android:id="@+id/editTextText9"
@@ -69,22 +69,22 @@
         android:layout_height="38dp"
         android:layout_marginStart="100dp"
         android:layout_marginEnd="100dp"
-        android:ems="10"
-        android:textSize="15sp"
-        android:hint="@string/lastname"
         android:autofillHints="name"
-        android:letterSpacing="0.09"
-        android:textColorHint="@color/black"
         android:background="@drawable/border"
+        android:fontFamily="@font/oswald_light"
+        android:ems="10"
+        android:hint="@string/lastname"
         android:inputType="text"
+        android:letterSpacing="0.09"
         android:paddingStart="10sp"
         android:paddingEnd="10sp"
-        android:textAlignment="center"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
-        tools:layout_editor_absoluteY="352dp" />
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,TextContrastCheck"
+        tools:layout_editor_absoluteY="388dp" />
 
     <EditText
         android:id="@+id/editTextText10"
@@ -94,19 +94,19 @@
         android:layout_marginEnd="100dp"
         android:background="@drawable/border"
         android:ems="10"
-        android:textSize="15sp"
-        android:letterSpacing="0.09"
         android:hint="@string/password"
-        android:textColorHint="@color/black"
         android:inputType="textPassword"
+        android:letterSpacing="0.09"
         android:paddingStart="10sp"
         android:paddingEnd="10sp"
-        android:textAlignment="center"
+        android:textAlignment="textStart"
+        android:fontFamily="@font/oswald_light"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
-        tools:layout_editor_absoluteY="397dp" />
+        tools:ignore="Autofill,MissingConstraints,TextContrastCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteY="449dp" />
 
     <EditText
         android:id="@+id/editTextText12"
@@ -116,19 +116,19 @@
         android:layout_marginEnd="101dp"
         android:background="@drawable/border"
         android:ems="10"
-        android:textSize="15sp"
+        android:fontFamily="@font/oswald_light"
+        android:hint="@string/confirmpassword"
+        android:inputType="textPassword"
+        android:letterSpacing="0.09"
         android:paddingStart="10sp"
         android:paddingEnd="10sp"
-        android:textAlignment="center"
-        android:letterSpacing="0.09"
-        android:hint="@string/confirmpassword"
-        android:textColorHint="@color/black"
-        android:inputType="textPassword"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
-        tools:layout_editor_absoluteY="442dp" />
+        tools:ignore="Autofill,MissingConstraints,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,TextContrastCheck"
+        tools:layout_editor_absoluteY="511dp" />
 
     <EditText
         android:id="@+id/editTextText13"
@@ -136,22 +136,22 @@
         android:layout_height="38dp"
         android:layout_marginStart="100dp"
         android:layout_marginEnd="100dp"
+        android:autofillHints="emailAddress"
         android:background="@drawable/border"
         android:ems="10"
-        android:textSize="15sp"
         android:hint="@string/emailorphonenumber"
-        android:autofillHints="emailAddress"
-        android:textColorHint="@color/black"
         android:inputType="text"
+        android:fontFamily="@font/oswald_light"
+        android:letterSpacing="0.09"
         android:paddingStart="10sp"
         android:paddingEnd="10sp"
-        android:letterSpacing="0.09"
-        android:textAlignment="center"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
-        tools:layout_editor_absoluteY="487dp" />
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteY="572dp" />
 
     <Button
         android:id="@+id/button2"
@@ -161,13 +161,86 @@
         android:layout_marginEnd="172dp"
         android:background="@drawable/red_border"
         android:hint="@string/register"
-        android:letterSpacing="0.5"
+        android:letterSpacing="0.4"
         android:textColorHint="@color/white"
         android:textStyle="bold"
+        android:fontFamily="@font/oswald"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.419"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteY="652dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:text="@string/id1"
+        android:textSize="15sp"
+        android:fontFamily="@font/oswald"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText7"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:text="@string/first_name1"
+        android:fontFamily="@font/oswald"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:text="@string/last_name1"
+        android:fontFamily="@font/oswald"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText9"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:text="@string/password1"
+        android:fontFamily="@font/oswald"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText10"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:text="@string/confirm_password1"
+        android:fontFamily="@font/oswald"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText12"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:fontFamily="@font/oswald"
+        android:textSize="15sp"
+        android:text="@string/email_or_phone_number1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText13"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
