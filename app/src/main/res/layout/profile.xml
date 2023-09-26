@@ -9,52 +9,171 @@
         android:id="@+id/back_button"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
-        android:src="@drawable/baseline_arrow_back_24"
-        android:scaleType="fitCenter"
-        android:padding="3dp"
+        android:layout_marginStart="5.5dp"
+        android:layout_marginTop="5.5dp"
         android:background="@drawable/back_border"
+        android:padding="3dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baseline_arrow_back_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
 
     <androidx.cardview.widget.CardView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="1dp"
-        app:cardCornerRadius="100dp"
-        app:cardBackgroundColor="#F00D0D"
+        android:id="@+id/cardView2"
+        android:layout_width="239dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="84dp"
+        app:cardBackgroundColor="#FAFAFA"
+        app:cardElevation="0dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.459"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/back_button" >
+        app:layout_constraintTop_toBottomOf="@+id/back_button">
 
-             <androidx.cardview.widget.CardView
-        android:layout_width="175dp"
-        android:layout_height="175dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        app:cardCornerRadius="100dp"
-        app:cardBackgroundColor="#F00D0D"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.459"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="parent" >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            app:cardBackgroundColor="#F00D0D"
+            app:cardCornerRadius="100dp">
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/profile123"
-            android:scaleType="fitXY"
-            />
+            <androidx.cardview.widget.CardView
+                android:layout_width="211dp"
+                android:layout_height="211dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                app:cardBackgroundColor="#F00D0D"
+                app:cardCornerRadius="100dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.459"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent"
+                tools:ignore="VisualLintBounds">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/profile_final"
+                    tools:ignore="ContentDescription" />
+
 
             </androidx.cardview.widget.CardView>
 
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/profile_change"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="183dp"
+            android:layout_marginTop="175dp"
+            android:background="@drawable/profile_border"
+            android:drawableTop="@drawable/baseline_camera_alt_24"
+            android:padding="3.5dp"
+
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </androidx.cardview.widget.CardView>
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="380dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="112dp"
+        app:cardBackgroundColor="#F00D0D"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="240dp"
+            android:layout_height="370dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/name_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/juan_dela_cruz1"
+                android:textAlignment="center"
+                android:fontFamily="@font/oswald_bold"
+                android:paddingTop="15dp"
+                android:paddingBottom="1dp"
+                android:paddingStart="48dp"
+                android:paddingEnd="42dp"
+                android:textSize="25sp"
+                android:textColor="#F00D0D"/>
+
+            <TextView
+                android:id="@+id/contact_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oswald_light"
+                android:paddingStart="74dp"
+                android:paddingTop="48dp"
+                android:paddingEnd="73dp"
+                android:paddingBottom="1dp"
+                android:text="@string/_09123456789"
+                android:textAlignment="center"
+                android:textColor="#F00D0D"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/id_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="@font/oswald_light"
+                android:paddingTop="128dp"
+                android:paddingBottom="1dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="110dp"
+                android:textSize="18sp"
+                android:textColor="#F00D0D"
+                android:text="@string/id_number_123123" />
+            <TextView
+                android:id="@+id/id_pres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="@font/oswald_light"
+                android:paddingTop="148dp"
+                android:paddingBottom="1dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="80dp"
+                android:textSize="18sp"
+                android:textColor="#F00D0D"
+                android:text="@string/id_presented_philhealth" />
+            <TextView
+                android:id="@+id/id_pres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="@font/oswald_light"
+                android:paddingTop="168dp"
+                android:paddingBottom="1dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="99dp"
+                android:textSize="18sp"
+                android:textColor="#F00D0D"
+                android:text="@string/user_number" />
+
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

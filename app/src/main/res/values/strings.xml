@@ -24,4 +24,9 @@
     <string name="ambulance_department">AMBULANCE DEPARTMENT</string>
     <string name="coast_guard_department">COAST GUARD DEPARTMENT</string>
     <string name="juan_dela_cruz">Juan Dela Cruz</string>
+    <string name="juan_dela_cruz1">Juan Dela Cruz</string>
+    <string name="_09123456789">09123456789</string>
+    <string name="id_number_123123">ID Number: 123123</string>
+    <string name="id_presented_philhealth">ID Presented: PhilHealth</string>
+    <string name="user_number">User Number: 00001</string>
 </resources>
